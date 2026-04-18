@@ -1,0 +1,26 @@
+import foto from "../assets/edvan.jpg";
+
+function Sobre() {
+  return (
+    <section style={{ textAlign: "center" }}>
+      <h2>Sobre Mim</h2>
+
+      <img 
+        src={foto} 
+        alt="Foto de Edvan"
+        style={{
+          width: "180px",
+          height: "180px",
+          borderRadius: "50%",
+          objectFit: "cover"
+        }}
+      />
+
+      <p>
+        Meu nome é Edvan, tenho 23 anos e estou fazendo o curso de Desenvolvimento de Sistemas.
+      </p>
+    </section>
+  );
+}
+
+export default Sobre;
